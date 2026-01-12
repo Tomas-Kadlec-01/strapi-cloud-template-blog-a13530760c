@@ -1,0 +1,6 @@
+https://cloud.strapi.io/projects/bd-portal-content-v1-7236e454e8/production/deployments
+
+https://efficient-horse-91bc0a6a46.strapiapp.com/admin
+
+full access token to localhost:
+445bdc213cfb5f288bd746f22424514440ff0c1246410a59b49fb1129470c1fc6fbe131a265542b9cdfbe72085a947a78c4a2928895326bb8e1ea392b546452b31c801313017cc9ce0abcc2fdcf740da0b084afaba7580dd0867e391451c376b5434a653dbcc9afe31cca9e85dc84527ef8a39bf7a6ce22e4010a0be53ce8aae

@@ -11,18 +11,31 @@
     "start": "strapi start",
     "strapi": "strapi"
   },
-  "dependencies": {
-    "@strapi/plugin-cloud": "5.28.0",
-    "@strapi/plugin-users-permissions": "5.28.0",
-    "@strapi/strapi": "5.28.0",
-    "better-sqlite3": "11.3.0",
-    "fs-extra": "^10.0.0",
-    "mime-types": "^2.1.27",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.30.3",
-    "styled-components": "^6.0.0"
-  },
+ 
+"dependencies": {
+  "@strapi/strapi": "5.28.0",
+  "@strapi/admin": "5.28.0",
+  "@strapi/content-type-builder": "5.28.0",
+  "@strapi/plugin-cloud": "5.28.0",
+  "@strapi/plugin-users-permissions": "5.28.0",
+  "better-sqlite3": "11.3.0",
+  "fs-extra": "^10.0.0",
+  "mime-types": "^2.1.27",
+  "react": "^18.0.0",
+  "react-dom": "^18.0.0",
+  "react-router-dom": "^6.30.3",
+  "styled-components": "^6.0.0"
+},
+
+"overrides": {
+  "@strapi/admin": "5.28.0",
+  "@strapi/content-type-builder": "5.28.0",
+  "@strapi/strapi": "5.28.0",
+  "@strapi/plugin-cloud": "5.28.0",
+  "@strapi/plugin-users-permissions": "5.28.0"
+}
+
+,
   "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
